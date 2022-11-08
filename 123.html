@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="z-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        margin: 50px auto;
+        width: 1000px;
+      }
+      caption {
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+      /*       #box-h {
+        width: 200px;
+        position: relative;
+        left: 50%;
+        margin-left: -124px;
+
+      }
+
+      #box-h h3 {
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+        font-size: 25px;
+        line-height: 100%;
+        
+        color: #999;
+      } */
+
+      .mt {
+        width: 1000px;
+        border-spacing: 0px;
+        border-right: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        text-align: center;
+      }
+      .mt td {
+        border-left: 1px solid #aaa;
+        border-top: 1px solid #aaa;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let i = 1
+  /*     while (i <= 5) {
+        if (i === 3) {
+          i++
+          continue
+        }
+        document.write(`这是第${i}个 <br>`)
+        i++
+      } */
+      while (i <= 3) {
+        if (i === 3) {
+          i++
+          break
+          
+        }
+        document.write(`这是第${i}个 <br>`)
+        i++
+      }
+      /*      let i = 1
+      let all = 0 */
+      // while (i <= 100) {
+      //   all = all + i
+      //   i++
+      // }
+      // while (i <= 100 && i % 2) {
+      //   all = all + i
+      //   i++
+      // }
+      /*       while (i <= 100) {
+        if (i % 2 === 0) {
+          all = all + i
+        }
+        i++
+      }
+      document.write(all) */
+      /*  while (i <= 10) {
+        document.write(`每天努力进步 <br>`)
+        i++
+      } */
+      /*      let a = +prompt('请输入第一个数字')
+      let b = +prompt('请输入第二个数字')
+      let c = prompt('请输入运算符 + — * /中的一个')
+      switch (c) {
+        case '+':
+        document.write(a + b)
+        break
+        case '-':
+        document.write(a - b)
+        break
+        case '*':
+        document.write(a * b)
+        break
+        case '/':
+        document.write(a / b)
+        break
+        default:
+          alert('你输入的不是上述四个运算符之一')
+      } */
+      /*      switch ('香蕉') {
+              case '香蕉':
+                alert('这个水果的颜色是黄色')
+                break
+              case '苹果':
+                alert('这个水果的颜色是红色')
+                break
+              case '蓝莓':
+                alert('这个水果的颜色是蓝色')
+                break
+              default:
+                  alert('你输入的内容不是我想要的')
+            } */
+      // 数字补0 start
+      /*       let time = prompt('请输入时间数字')
+            let result = time < 10 ? 0 + time : time
+            document.write(result) */
+      // 多分枝语句start
+      /*       let time = prompt('请输入现在的时间')
+            if(time <= 10){
+              alert('早上好，记得吃早饭')
+            } else if(time > 10 && time <= 12){
+              alert('中午好，应该去吃午饭了')
+            } else if(time > 12 && time <= 18){
+              alert('下午好')
+            } else {
+              alert('晚上好')
+            } */
+      /*  let score = prompt('请输入你的分数')
+            if(score > 500){
+              alert('请加入我们')
+            } else {
+              alert('很可惜，但是不要气馁')
+            } */
+      /*  let num = prompt('请输入数字')
+            console.log(num % 4 === 0 && num % 100 !== 0) */
+      /*    let num = 100
+            let a = 50 */
+      // num = num + a
+      // num += a
+      // num--
+      // num += 3
+      // document.write(num)
+      /*      let price = prompt("请输入产品单价");
+            let num = +prompt("请输入产品的数量");
+            let address = prompt("请输入收货地址");
+            let total = price * num;
+            document.write(`
+            <div id="box">
+            <table class="mt">
+              <caption>
+                订单付款确认页面
+              </caption>
+              <thead>
+                <tr>
+                  <td>商品名称</td>
+                  <td>商品价格</td>
+                  <td>商品数量</td>
+                  <td>总价</td>
+                  <td>收货地址</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>小米手机</td>
+                  <td>${price}元</td>
+                  <td>${num}</td>
+                  <td>${total}</td>
+                  <td>${address}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            `); */
+      /*  let firstNum = prompt("请输入第一个数字");
+            let lastName = prompt("请输入第二个数字");
+            document.write(parseFloat(firstNum) + parseFloat(lastName)); */
+
+      // document.write(`两者相加的和是${Number(firstNum)} + ${Number(lastName)}`)
+      // document.write('两者相加的和是' + Number(firstNum) + Number(lastName))
+      // document.write(Number(firstNum) + Number(lastName))
+      // 显示转换数字类型Number
+      /*   console.log(Number ('100'))
+            console.log(Number('100aaaaaaaa'))
+            console.log(parseFloat('5.2aaaaaaaaaaaaa'))
+            console.log(parseInt('5.2121212'))
+            console.log(parseFloat('5.2121212')) */
+      /*   let nums = 20
+            console.log(typeof nums + '11')
+            console.log(typeof (nums+ '11'))
+            console.log(typeof (nums + + '11')) */
+      // 除了加号以外的运算符会把数据类型转换为数字类型
+      /*  console.log(10 + '10')
+            console.log(100 / '10')
+            console.log(100 - '10')
+            let nums = '50'
+            console.log(nums) */
+      /*   console.log(typeof true)
+            console.log(typeof null) */
+      /*  let name = prompt('请输入你的姓名')
+            let age = prompt('请输入你的年龄')
+            document.write(`大家好，我叫${name}, 我今年${age}岁了`) */
+      // let age = prompt('请输入你的年龄：')
+      // document.write('我今年'+ age +'了')
+      // document.write(`我今年${age}了`)
+      // document.write(`我今年${age - 30}了`)
+      /*      let userName = prompt('请用户输入名字')
+            document.write('我的名字是' + userName) */
+      // console.log("我是'pink德华'")
+      /*  let a = 123
+            let b = '今天早上你吃的是什么东西呢'
+            console.log(a,b) */
+      // let days = ['星期一', '星期二', '星期三', '星期四', '星期五', '星期六', '星期天']
+      // console.log(days[6])
+      // let name = prompt('请输入你的名字')
+      // let age = prompt('请输入你的年龄')
+      // let sex = prompt('请输入你的性别')
+      // document.write(name)
+      // document.write(age)
+      // document.write(sex)
+      /*    let a = 10
+              let b = 20 */
+      // 第一步先把a腾出来到c，把b的值带入到a中取； 此时把c 中的值加入到空的b中取就达到了交换值得效果
+      /*   let c
+              c = a
+              a = b
+              b = c
+              console.log(a,b) */
+
+      // let userName = prompt('请输入姓名')
+      // document.write(userName)
+      // document.write('<h2>今天是星期天</h2>')
+      // prompt('现在几点钟')
+      // document.write('你好，JS!')
+      // console.log('JavaScript 我来了！')
+      // let num = 10;
+      // console.log(num + 11);
+      // console.log(num + "11");
+      // console.log(num + +"11");
+      // console.log(typeof num + 11)
+      // console.log(typeof (num + '11'))
+      // console.log(typeof (num + + '11'))
+    </script>
+  </body>
+</html>
